@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    input {
+        width: 300px;
+        // height: 60px;
+        height: fit-content;
+        margin: 10px;
+        font-size: 15px;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+}
+
+.saved-reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card {
+        width: 500px;
+        // height: 120px;
+        height: fit-content;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 1rem;
+        .control-buttons {
+            display: flex;
+            flex-direction: row;
+            grid-gap: 1rem;
+            justify-content: center;
+        }
+    }
+}
